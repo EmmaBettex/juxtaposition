@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>juxtaposition</title>
+
+<style>
+    /* typo */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+body{ font-family: "Playfair Display", serif;}
+/* mise en page */
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+}
+div{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* déco */
+div{font-size: 5vW;}
+#G {background-color: rgb(178, 253, 236);}
+#D {background-color: rgb(236, 187, 242);}
+
+@media(orientation: portrait){
+    body{
+        flex-direction: column;
+    }
+}
+
+</style>
+
+</head>
+<body>
+
+   <div id="G">diva</div> 
+   <div id="D">coquine</div>
+
+</body>
+</html>
